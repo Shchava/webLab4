@@ -1,0 +1,41 @@
+.diagram {
+    width: 100%;
+    padding: 20px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: flex-end;
+    align-content: space-between;
+}
+
+.diagEntry {
+    display: flex;
+    flex-flow: column nowrap;
+
+    justify-content: space-between;
+    align-content: center;
+    text-align: center;
+}
+
+.diagEntryBody {
+    width: 100%;
+}
+
+.label {
+    margin: auto;
+}
+
+.tip {
+    display: none;
+    position: absolute;
+}
+
+h3 {
+    margin-left: 20px;
+}
+
+h2 {
+    margin-left: 20px;
+}

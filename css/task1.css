@@ -1,0 +1,38 @@
+body {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f5f5f5;
+}
+
+.control-form {
+    align-content: center;
+    padding: 30px;
+}
+
+.label {
+    min-width: 200px;
+    background-color: #b6b4ac;
+    border-radius: 6px 0 0 6px;
+    text-align: center;
+}
+
+.field {
+    min-width: 400px;
+    border-radius: 0 6px 6px 0;
+}
+
+.form-inline {
+    margin: 10px;
+}
+
+.content {
+    margin: auto;
+}
+
+.image {
+    border-style: solid;
+}
